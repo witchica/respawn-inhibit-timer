@@ -1,0 +1,7 @@
+name: Hardcore Respawn Timer
+version: 1.0
+main: com.witchica.hrt.HardcoreRespawnTimer
+description: Adds configurable respawns to hardcore mode
+author: witchica
+website: https://witchica.com
+api-version: '1.20'
