@@ -1,1 +1,1 @@
-rootProject.name = "hardcore-respawn-timer"
+rootProject.name = "respawn-inhibition"

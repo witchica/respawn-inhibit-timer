@@ -1,7 +1,16 @@
-name: Hardcore Respawn Timer
+name: RespawnInhibition
 version: 1.0
-main: com.witchica.hrt.HardcoreRespawnTimer
-description: Adds configurable respawns to hardcore mode
+main: com.witchica.respawninhibition.RespawnInhibition
+description: Adds configurable respawns
 author: witchica
-website: https://witchica.com
+website: https://witchica.github.io
 api-version: '1.20'
+commands:
+  respawni:
+    description: Administator commands for Respawn Inhibitor
+    usage: /respawni (end [player] | settime [seconds] [player] | checktime [player] | list | enable | disable)
+    permission: respawninhibitor.admin
+  respawn:
+    description: Used by players to respawn
+    usage: /respawn
+    permission: respawninhibitor.respawn
